@@ -1,10 +1,13 @@
 ying:
     display_name: "Dr Wing Ying Chow"
     webpage: "https://warwick.ac.uk/fac/sci/physics/staff/academic/ychow/"
-    github: selkieupsilon
     role: faculty
     image: /img/people/ying.jpg
     bio: Assistant Professor, Department of Physics, University of Warwick
+    twitter: wingyingchow
+    github: selkieupsilon
+    orcid: 0000-0003-0719-5958
+    bio-long: Ying read Natural Sciences at Cambridge and returned for a PhD in Chemistry, graduating in 2014. She received a DAAD-Leibniz Postdoctoral Fellowship to work with Hartmut Oschkinat in Berlin, Germany. In 2020, she moved to the Interdisciplinary Research Institute of Grenoble to work with Sabine Hediger and Gaël de Paëpe. She started at Warwick in February 2022.
 
 mjduer:
     display_name: "Prof Melinda Duer"

@@ -28,7 +28,7 @@ there by default by Bootstrap columns.
 {% endif %}
 
 {% if include.image %}
-    <div class="person person-with-image row align-items-center">
+    <div class="person person-with-image row align-items-top">
         <div class="col-auto">
             {% include person-image.html person=person %}
         </div>
@@ -36,6 +36,15 @@ there by default by Bootstrap columns.
             <h6 class="person-name"> {{ name }} </h6>
             {% if person.bio %}
                 <div class="bio">{{person.bio}}</div>
+            {% endif %}
+            {% if person.orcid %}
+                <div class="orcid"><i class="fa fa-id-card-o"></i> <a href="https://orcid.org/{{person.orcid}}">{{person.orcid}}</a></div>
+            {% endif %}
+            {% if person.twitter %}
+                <div class="twitter"><i class="fa fa-twitter"></i> <a href="https://twitter.com/{{person.twitter}}">@{{person.twitter}}</a></div>
+            {% endif %}
+            {% if person.bio-long %}
+                <div class="bio-long">{{person.bio-long}}</div>
             {% endif %}
         </div>
     </div>
