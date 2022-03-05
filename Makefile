@@ -20,10 +20,10 @@ SERVE_HOST ?= 0.0.0.0
 SERVE_PORT ?= 5000
 
 serve: _includes/pubs.html
-	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST)
+	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d docs
 
 clean:
-	$(RM) -r _site _includes/pubs.html
+	$(RM) -r _site _includes/pubs.html docs
 
 DEPLOY_HOST ?= yourwebpage.com
 DEPLOY_PATH ?= www/
