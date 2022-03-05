@@ -38,7 +38,7 @@ role-tables:
         {% endfor %}
     </ul>
     {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
+    {% if numposts > 1 %}
         <p>
             <span class="fa fa-fw fa-history"></span>
             <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
