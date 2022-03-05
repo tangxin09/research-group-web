@@ -8,7 +8,7 @@ BIBBLE = bibble
 _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
-	clatex2text $@ > $@.2
+	latex2text $@ > $@.2
 	mv $@.2 $@
 
 build: _includes/pubs.html
