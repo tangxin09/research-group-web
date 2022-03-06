@@ -1,19 +1,24 @@
 Research Group Web Site Template
 ================================
 
-This is a [Jekyll][]-based Web site intended for research groups. Your group should be able to get up and running with minimal fuss.
-
-<p align="center">
-<img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
-</p>
-
-This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
+This is a [Jekyll][]-based Web site based on the work of the [sampa][sampa] group at the University of Washington. It is forked from [this repository][uwsamparepo].
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
 [sampa]: http://sampa.cs.washington.edu/
 [license]: https://creativecommons.org/licenses/by-nc/4.0/
+[uwsamparepo]: https://github.com/uwsampa/research-group-web
 
+Modifications
+--------
+- removed "faculty" as being used for a single-PI lab website
+- reduced number of columns for project cards
+- tweaked column width for news
+- used Mendeley to export bibtex
+- used [pylatexenc][pylatexenc] to convert LaTeX-encoded parts of website back to text
+
+
+[pylatexenc]: https://pylatexenc.readthedocs.io/en/latest/latex2text/
 
 Features
 --------
