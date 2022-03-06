@@ -8,7 +8,7 @@
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
-                    {% include person.html person=person image=include.image %}
+                    {% include person-full.html person=person image=include.image %}
                 {% endif %}
             {% endfor %}
         </div>

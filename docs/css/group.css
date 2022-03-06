@@ -54,7 +54,10 @@ ul.news > li {
     column-count: 2; }
 
   .card-columns {
-    column-count: 2; } }
+    column-count: 2; }
+
+  .card-columns-one {
+    column-count: 1; } }
 @media (min-width: 768px) {
   .role.grad {
     column-count: 2; }
@@ -63,7 +66,10 @@ ul.news > li {
     column-count: 3; }
 
   .card-columns {
-    column-count: 3; } }
+    column-count: 2; }
+
+  .card-columns-one {
+    column-count: 1; } }
 .title img {
   max-width: 50%; }
 
