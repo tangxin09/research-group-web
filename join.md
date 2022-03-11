@@ -6,13 +6,13 @@ We welcome contact from prospective students and postdocs who are looking to do 
 
 Please review the information below before [contact](mailto:w.YING.chow@warwick.ac.uk).
 
-For postgraduate positions:
+## Postgraduate applicants
 - Please ensure you meet the [departmental entry requirements](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phdormsc/).
 - Please check the information on [fees and funding](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phd/eligibility).
     - Funding is available specifically for [students who are from under-represented groups in physics](https://www.leverhulme.ac.uk/early-career-fellowships).
     - While funding is often restricted to students who have "home" status, EU and international students with an outstanding track record can apply to the [Chancellor's International Scholarship](https://warwick.ac.uk/services/dc/schols_fund/scholarships_and_funding/chancellors_int).
 
-For postdoctoral positions: 
+## Postdoctoral applicants
 - We are looking for candidates with experience in either:
     - cell biology, biochemistry, molecular biology, and related fields; or
     - NMR, especially solid-state NMR
@@ -35,7 +35,7 @@ For postdoctoral positions:
 - University page on [Equality, Diversity, and Inclusion](https://warwick.ac.uk/services/equalops/)
 - The Warwick [Institute of Advanced Study](https://warwick.ac.uk/fac/cross_fac/ias/postdocs/) provides a network and community for early-career researchers, including postdocs.
 
-Doctoral Training Centres
+## Doctoral Training Centres
 - [Analytical Science](https://warwick.ac.uk/fac/sci/as/)
 - [Midlands Integrative Biosciences Training Partnership](https://warwick.ac.uk/fac/cross_fac/mibtp/)
 - [MRC Doctoral Training Partnership](https://warwick.ac.uk/fac/sci/med/study/mrcdtp)
