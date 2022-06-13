@@ -9,7 +9,7 @@ Please review the information below before [contact](mailto:w.YING.chow@warwick.
 ## Postgraduate applicants
 - Please ensure you meet the [departmental entry requirements](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phdormsc/).
 - Please check the information on [fees and funding](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phd/eligibility).
-    - Funding is available specifically for [students who are from under-represented groups in physics](https://www.leverhulme.ac.uk/early-career-fellowships).
+    - Funding is available specifically for [students who are from under-represented groups in physics (IoP)](https://www.iop.org/about/support-grants/bell-burnell-fund).
     - While funding is often restricted to students who have "home" status, EU and international students with an outstanding track record can apply to the [Chancellor's International Scholarship](https://warwick.ac.uk/services/dc/schols_fund/scholarships_and_funding/chancellors_int).
 
 ## Postdoctoral applicants
