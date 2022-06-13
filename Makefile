@@ -13,6 +13,7 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 
 build: _includes/pubs.html
 	jekyll build -d docs
+	cp CNAME docs/CNAME
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
