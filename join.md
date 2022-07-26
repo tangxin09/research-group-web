@@ -2,17 +2,24 @@
 layout: default
 title: Opportunities
 ---
+
+## MSc + PhD position
+
+[Joining the lab through the ASCDT MSc+PhD route (UK/EU)](https://www.wychowlab.org/blog/2022/07/22/join-ASCDT-MSc.html) Deadline: 15 August 2022
+
+## Prospective applications
+
 We welcome contact from prospective students and postdocs who are looking to do gound-breaking research at the interface of biology, physics, and chemistry. We are committed to supporting and promoting equality, diversity, and inclusion. We especially encourage applications from underrepresented groups in science.
 
 Please review the information below before [contact](mailto:w.YING.chow@warwick.ac.uk).
 
-## Postgraduate applicants
+### Postgraduate applicants
 - Please ensure you meet the [departmental entry requirements](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phdormsc/).
 - Please check the information on [fees and funding](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phd/eligibility).
     - Funding is available specifically for [students who are from under-represented groups in physics (IoP)](https://www.iop.org/about/support-grants/bell-burnell-fund).
     - While funding is often restricted to students who have "home" status, EU and international students with an outstanding track record can apply to the [Chancellor's International Scholarship](https://warwick.ac.uk/services/dc/schols_fund/scholarships_and_funding/chancellors_int).
 
-## Postdoctoral applicants
+### Postdoctoral applicants
 - We are looking for candidates with experience in either:
     - cell biology, biochemistry, molecular biology, and related fields; or
     - NMR, especially solid-state NMR
@@ -27,7 +34,7 @@ Please review the information below before [contact](mailto:w.YING.chow@warwick.
 - From time to time, funded positions will be available for specific topics.
 
 
-# Resources
+## Resources
 
 - [How to applying for graduate studies in the Department of Physics at Warwick](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/resourcesforapplicants/)
 - [Step-by-step guide to applying to Warwick for graduate studies](https://warwick.ac.uk/study/postgraduate/apply/research/)
@@ -35,7 +42,7 @@ Please review the information below before [contact](mailto:w.YING.chow@warwick.
 - University page on [Equality, Diversity, and Inclusion](https://warwick.ac.uk/services/equalops/)
 - The Warwick [Institute of Advanced Study](https://warwick.ac.uk/fac/cross_fac/ias/postdocs/) provides a network and community for early-career researchers, including postdocs.
 
-## Doctoral Training Centres
+### Doctoral Training Centres
 - [Analytical Science](https://warwick.ac.uk/fac/sci/as/)
 - [Midlands Integrative Biosciences Training Partnership](https://warwick.ac.uk/fac/cross_fac/mibtp/)
 - [MRC Doctoral Training Partnership](https://warwick.ac.uk/fac/sci/med/study/mrcdtp)

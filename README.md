@@ -16,6 +16,7 @@ Modifications
 - tweaked column width for news
 - used Mendeley to export bibtex
 - used [pylatexenc][pylatexenc] to convert LaTeX-encoded parts of website back to text
+- added [favicon generated from fontawesome](https://gauger.io/fonticon/)
 
 
 [pylatexenc]: https://pylatexenc.readthedocs.io/en/latest/latex2text/

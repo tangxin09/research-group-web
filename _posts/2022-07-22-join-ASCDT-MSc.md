@@ -17,6 +17,7 @@ Description: Mammalian cell culture is an essential technology for biomedical re
 
 Other projects can be viewed at the [ASCDT page for the MSc + PhD route](https://warwick.ac.uk/fac/sci/as/study/msc/). You can also find more information about the [Analytical Science Centre for Doctoral Training (ASCDT)](https://warwick.ac.uk/fac/sci/as/about/).
 
+Deadline: 15 August 2022
 
 - [jobs.ac.uk listing](https://www.jobs.ac.uk/job/CRS321/phd-studentship-warwick-centre-for-doctoral-training-in-analytical-science)
 - [findaphd.com listing](https://www.findaphd.com/phds/project/analytical-science-centre-for-doctoral-training-call-for-applications/?p146060)
