@@ -7,6 +7,10 @@ title: Opportunities
 
 [Joining the lab through the ASCDT MSc+PhD route (UK/EU)](https://www.wychowlab.org/blog/2022/07/22/join-ASCDT-MSc.html) Deadline: 15 August 2022
 
+## Undergraduate researchers
+
+We support applications through the [Undergraduate Research Support Scheme (URSS)](https://warwick.ac.uk/services/skills/urss/) if you are doing a science-based undergraduate course at Warwick, and we are open to applications across the [whole faculty](https://warwick.ac.uk/fac/sci/). URSS will give you the chance to lead your own summer project hosted in our lab for 6-10 weeks, as well as carry out a public engagement project. Deadlines are usually in February. Please contact Ying by mid-January to discuss if interested.
+
 ## Prospective applications
 
 We welcome contact from prospective students and postdocs who are looking to do gound-breaking research at the interface of biology, physics, and chemistry. We are committed to supporting and promoting equality, diversity, and inclusion. We especially encourage applications from underrepresented groups in science.
