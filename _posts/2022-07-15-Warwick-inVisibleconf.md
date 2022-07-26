@@ -1,7 +1,7 @@
 ---
 layout: post
 shortnews: true
-icon: newspaper-o
+icon: users
 image: 
 image_style: 
 ---

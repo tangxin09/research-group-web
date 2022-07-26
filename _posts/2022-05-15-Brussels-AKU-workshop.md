@@ -1,7 +1,7 @@
 ---
 layout: post
 shortnews: true
-icon: newspaper-o
+icon: comments-o
 image: /img/posts/IMG_20220515_081011.jpg
 image_style: "max-height: 500px;"
 ---
