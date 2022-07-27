@@ -2,7 +2,7 @@
 layout: post
 #shortnews: true
 title: "Joining the lab through the ASCDT MSc+PhD route (UK/EU)"
-icon: graduation-cap
+icon: graduation-cap fa-bounce
 image: 
 image_style: 
 ---
