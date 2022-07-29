@@ -1,0 +1,441 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Fri Jul 29 11:14:12 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 30)
+DEPLOY_PATH = www/
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 2
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/wyc25/website/research-group-web
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/102
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 9:36782
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = wyc25
+# environment
+MAKELEVEL := 0
+# environment
+ 
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=478f22e473b6061543ba53fc62e3aeb9
+# environment
+_ = /snap/code/102/usr/share/code/code
+# environment
+MANAGERPID = 3973
+# environment
+CLUTTER_IM_MODULE = xim
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = fr_FR.UTF-8
+# environment
+VSCODE_CWD = /home/wyc25
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/wyc25/.local/bin:/home/wyc25/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# makefile (from 'Makefile', line 6)
+BIBBLE = bibble
+# environment
+SESSION_MANAGER = local/gus:@/tmp/.ICE-unix/4096,unix/gus:/tmp/.ICE-unix/4096
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/wyc25/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+TEXTDOMAIN = im-config
+# environment
+SNAP = /snap/code/102
+# environment
+SNAP_VERSION = 3b889b09
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = c6cd13e846ee487eab73be8f89ae8162
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8299
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+GTK_IM_MODULE = ibus
+# environment
+SNAP_INSTANCE_KEY = 
+# makefile (from 'Makefile', line 20)
+SERVE_HOST = 0.0.0.0
+# environment
+PWD = /home/wyc25/website/research-group-web
+# makefile (from 'Makefile', line 29)
+DEPLOY_HOST = yourwebpage.com
+# makefile (from 'Makefile', line 21)
+SERVE_PORT = 5000
+# environment
+XDG_SEAT = seat0
+# environment
+SSH_AGENT_PID = 4204
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/wyc25
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/wyc25/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = wyc25
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = t068Zu2dPhowfYSVc7pNzheiRNaeel-D_SyegmsRJVCswRvgFCcQ
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/wyc25/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+MAKE_VERSION := 4.1
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XDG_VTNR = 2
+# environment
+LC_TIME = en_GB.UTF-8
+# environment
+SNAP_REAL_HOME = /home/wyc25
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/wyc25/snap/code/102
+# environment
+SHLVL = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+XDG_SESSION_ID = 2
+# environment
+USER = wyc25
+# environment
+SNAP_REVISION = 102
+# environment
+LC_MONETARY = fr_FR.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = fr_FR.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_GB:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-1be1ef36-1.69.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = fr_FR.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# environment
+TEXTDOMAINDIR = /usr/share/locale/
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = t068Zu2dPhowfYSVc7pNzheiRNaeel-D_SyegmsRJVCswRvgFCcQ
+# environment
+LC_NUMERIC = en_GB.UTF-8
+# makefile (from 'Makefile', line 31)
+RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = fr_FR.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# environment
+QT4_IM_MODULE = xim
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = fr_FR.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = fr_FR.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 8343
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=478f22e473b6061543ba53fc62e3aeb9
+# variable set hash-table stats:
+# Load=139/1024=14%, Rehash=0, Collisions=25/171=15%
+
+ 
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2065, inode 82969982): 29 files, no impossibilities.
+
+# 29 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: build
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+.PHONY: all clean deploy build serve
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 15:09:10.050261324
+#  File has been updated.
+#  Successfully updated.
+
+build: _includes/pubs.html
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := build
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := _includes/pubs.html
+# automatic
+# | := 
+# automatic
+# < := _includes/pubs.html
+# automatic
+# ^ := _includes/pubs.html
+# automatic
+# ? := _includes/pubs.html
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 15):
+	jekyll build -d docs
+	cp CNAME docs/CNAME
+
+_includes/pubs.html: bib/pubs.bib bib/publications.tmpl
+#  Implicit rule search has not been done.
+#  Last modified 2022-06-13 15:09:12.446287065
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 9):
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
+	latex2text $@ > $@.2
+	mv $@.2 $@
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 27):
+	$(RM) -r _site _includes/pubs.html docs
+
+# Not a target:
+bib/publications.tmpl:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 10:45:06.07610316
+#  File has been updated.
+#  Successfully updated.
+
+deploy: clean build
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 34):
+	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+
+# Not a target:
+bib/pubs.bib:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-13 15:04:12.215067931
+#  File has been updated.
+#  Successfully updated.
+
+serve: _includes/pubs.html
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+ 
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d docs
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/40=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 42 / storage = 389 B / avg = 9 B
+# current buf: size = 8162 B / used = 389 B / count = 42 / avg = 9 B
+
+# strcache performance: lookups = 65 / hit rate = 35%
+# hash-table stats:
+# Load=42/8192=1%, Rehash=0, Collisions=1/65=2%
+# Finished Make data base on Fri Jul 29 11:14:12 2022
+
+ 
