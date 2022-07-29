@@ -21,6 +21,11 @@ bnorman:
     role: collab
     bio: Institute of Life Course and Medical Sciences, University of Liverpool
 
+dkoester:
+    display_name: "Dr Darius Koester"
+    webpage: "https://warwick.ac.uk/fac/sci/med/research/biomedical/labs/dkoester/"
+    role: collab
+    bio: Centre for Mechanochemical Cell Biology, Warwick Medical School, University of Warwick
 
 
 

@@ -16,6 +16,8 @@ Modifications
 - tweaked column width for news
 - used Mendeley to export bibtex
 - used [pylatexenc][pylatexenc] to convert LaTeX-encoded parts of website back to text
+- added [favicon generated from fontawesome](https://gauger.io/fonticon/)
+- moved from fontawesome 4 to 6, originally for the ORCID logo, but possibly now more for the fun effects
 
 
 [pylatexenc]: https://pylatexenc.readthedocs.io/en/latest/latex2text/
