@@ -1,3 +1,9 @@
+Website for Wing Ying Chow's Lab at University of Warwick, UK
+=============================================================
+
+[https://www.wychowlab.org/](https://www.wychowlab.org/)
+
+
 Research Group Web Site Template
 ================================
 
@@ -17,8 +23,7 @@ Modifications
 - used Mendeley to export bibtex
 - used [pylatexenc][pylatexenc] to convert LaTeX-encoded parts of website back to text
 - added [favicon generated from fontawesome](https://gauger.io/fonticon/)
-- moved from fontawesome 4 to 6, originally for the ORCID logo, but possibly now more for the fun effects
-
+- moved from [Font Awesome](https://fontawesome.com/) 4 to 6, originally for the ORCID logo, but possibly now more for the fun effects
 
 [pylatexenc]: https://pylatexenc.readthedocs.io/en/latest/latex2text/
 
