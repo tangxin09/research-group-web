@@ -12,16 +12,16 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mv $@.2 $@
 
 build: _includes/pubs.html
-	jekyll build -d docs
+	bundle exec jekyll build -d docs
 	cp CNAME docs/CNAME
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
-SERVE_HOST ?= 0.0.0.0
-SERVE_PORT ?= 5000
+SERVE_HOST ?= localhost
+SERVE_PORT ?= 4000
 
 serve: _includes/pubs.html
-	jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d docs
+	bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d docs
 
 clean:
 	$(RM) -r _site _includes/pubs.html docs
