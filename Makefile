@@ -25,7 +25,7 @@ serve: _includes/pubs.html
 	bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d $(SERVE_DIR)
 
 clean:
-	$(RM) -r _site _includes/pubs.html $(SERVE_DIR)
+	$(RM) -r $(SERVE_DIR) _includes/pubs.html 
 
 DEPLOY_HOST ?= yourwebpage.com
 DEPLOY_PATH ?= www/
