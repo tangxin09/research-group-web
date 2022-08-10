@@ -12,23 +12,24 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mv $@.2 $@
 
 build: _includes/pubs.html
-	bundle exec jekyll build -d docs
-	cp CNAME docs/CNAME
+	bundle exec jekyll build -d $(SERVE_DIR)
+	cp CNAME $(SERVE_DIR)/CNAME
 
 # you can configure these at the shell, e.g.:
 # SERVE_PORT=5001 make serve
 SERVE_HOST ?= localhost
 SERVE_PORT ?= 4000
+SERVE_DIR ?= docs
 
 serve: _includes/pubs.html
-	bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d docs
+	bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d $(SERVE_DIR)
 
 clean:
-	$(RM) -r _site _includes/pubs.html docs
+	$(RM) -r _site _includes/pubs.html $(SERVE_DIR)
 
 DEPLOY_HOST ?= yourwebpage.com
 DEPLOY_PATH ?= www/
 RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
 
 deploy: clean build
-	$(RSYNC) _site/ $(DEPLOY_HOST):$(DEPLOY_PATH)
+	$(RSYNC) $(SERVE_DIR) $(DEPLOY_HOST):$(DEPLOY_PATH)
