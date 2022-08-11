@@ -1,5 +1,6 @@
 title: WY Chow Lab
-url: https://www.wychowlab.org/
+url: "https://www.wychowlab.org"
+baseurl: ""
 tagline: Using magnetic resonance to deliver new insight to human health and disease.
 description: We use solid-state NMR spectroscopy to bring new insight to biomolecules in the extracellular matrix that are relevant to human health and disease. We are based at the University of Warwick, UK. 
 
@@ -10,7 +11,7 @@ author:
   image: /img/people/ying.jpg
 twitter:
   username: wingyingchow
-  card: summary
+  card: summary_large_image
 social:
   name: Wing Ying Chow
   links: 
@@ -21,6 +22,7 @@ social:
     - https://www.researchgate.net/profile/Wing-Ying-Chow
     - https://github.com/selkieupsilon
 locale: en_GB
+logo: /img/logo.png
 
 # colorize code snippets with the pygments module
 highlighter: pygments

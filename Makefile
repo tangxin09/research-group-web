@@ -23,7 +23,7 @@ SERVE_DIR ?= docs
 DEFAULT_SERVE_DIR ?= _site
 
 serve: _includes/pubs.html
-	bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d $(SERVE_DIR)
+	JEKYLL_ENV=production bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d $(SERVE_DIR)
 
 clean:
 	$(RM) -r $(SERVE_DIR) _includes/pubs.html $(DEFAULT_SERVE_DIR)
