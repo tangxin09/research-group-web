@@ -3,11 +3,9 @@ layout: default
 title: Opportunities
 ---
 
-## MSc + PhD position
-
-[Joining the lab through the ASCDT MSc+PhD route (UK/EU)](https://www.wychowlab.org/blog/2022/07/22/join-ASCDT-MSc.html) Deadline: 15 August 2022
-
 ## Undergraduate researchers
+
+We welcome undergraduates to undertake their final year projects in our lab. You will be notified of lab projects offered each year via the relevant [MPhys (PX402) or BSc (PX3A0) modules](https://warwick.ac.uk/fac/sci/physics/current/teach/modules/). If interested in joining the lab, you are encouraged to contact Ying to discuss the listed project in more detail prior to submitting your project choices.
 
 We support applications through the [Undergraduate Research Support Scheme (URSS)](https://warwick.ac.uk/services/skills/urss/) if you are doing a science-based undergraduate course at Warwick, and we are open to applications across the [whole faculty](https://warwick.ac.uk/fac/sci/). URSS will give you the chance to lead your own summer project hosted in our lab for 6-10 weeks, as well as carry out a public engagement project. Deadlines are usually in February. Please contact Ying by mid-January to discuss if interested.
 
@@ -19,13 +17,13 @@ We welcome contact from prospective students and postdocs who are looking to do 
 
 Please review the information below before [contact](mailto:w.YING.chow@warwick.ac.uk).
 
-### Postgraduate applicants
+### Applying for a PhD position
 - Please ensure you meet the [departmental entry requirements](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phdormsc/).
 - Please check the information on [fees and funding](https://warwick.ac.uk/fac/sci/physics/admissions/postgraduate/phd/eligibility).
     - Funding is available specifically for [students who are from under-represented groups in physics (IoP)](https://www.iop.org/about/support-grants/bell-burnell-fund).
     - While funding is often restricted to students who have "home" status, EU and international students with an outstanding track record can apply to the [Chancellor's International Scholarship](https://warwick.ac.uk/services/dc/schols_fund/scholarships_and_funding/chancellors_int).
 
-### Postdoctoral applicants
+### Applying for a postdoc
 - We are looking for candidates with experience in either:
     - cell biology, biochemistry, molecular biology, and related fields; or
     - NMR, especially solid-state NMR
