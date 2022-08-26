@@ -1,0 +1,11 @@
+# Navigation bar links.
+- name: Home
+  link: /
+- name: People
+  link: /#people
+- name: Research
+  link: /research/
+- name: Publications
+  link: /publications/
+- name: Join
+  link: /join/

@@ -1,0 +1,14 @@
+<nav class="nav nav-pills justify-content-center">
+    {% for item in site.data.navigation %}
+
+        {% assign maybe-active = '' %}
+        {% if page.url == item.link %}
+            {% assign maybe-active = 'active' %}
+        {% endif %}
+
+        <a href="{{ item.link }}" class="nav-link {{ maybe-active }}">
+        {{ item.name }} 
+        </a>
+    {% endfor %}
+</nav>
+
