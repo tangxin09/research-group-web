@@ -14,10 +14,6 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         {% feed_meta %}
         {% seo %}
-        {% unless page.image %}
-        <meta property="twitter:image" content="{{ site.url }}{{ site.logo }}" />
-        <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
-        {% endunless %}
     </head>
     <body>
         <div class="container">
@@ -58,8 +54,8 @@
                 </ul>
             </div>
 
-            {% if page.image %}
-                <img src="{{ page.image }}"
+            {% if page.displayimage %}
+                <img src="{{ page.displayimage }}"
                      alt="{{ page.title }}"
                      style="max-width: 400px"
                      class="img-fluid mx-auto d-block mb-4"/>

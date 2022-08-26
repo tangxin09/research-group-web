@@ -26,12 +26,13 @@
 {% endcapture %}
 
 <li class="{{ class }}">
-    {% if post.image %}
+    {% if post.displayimage %}
 
         {% capture img %}
             <img class="img-fluid d-block mx-auto"
-                 style="{{ post.image_style }}"
-                 src="{{ post.image }}">
+                 style="{{ post.displayimage.style }}"
+                 alt="{{ post.displayimage.alt }}"
+                 src="{{ post.displayimage.src }}">
         {% endcapture %}
 
         <div class="row">
@@ -40,8 +41,8 @@
                 {{ news }}
             </div>
             <div class="col-sm-4">
-                {% if post.image_link %}
-                    <a href="{{ post.image_link }}">{{ img }}</a>
+                {% if post.displayimage_link %}
+                    <a href="{{ post.displayimage_link }}">{{ img }}</a>
                 {% else %}
                     {{ img }}
                 {% endif %}
