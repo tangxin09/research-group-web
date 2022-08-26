@@ -28,8 +28,8 @@ logo: /img/logo.png
 # colorize code snippets with the pygments module
 highlighter: pygments
 
-# The path structure for blog posts.
-permalink: /blog/:year/:month/:day/:title.html
+# The path structure for posts.
+permalink: pretty
 
 # Sections on the "people" page.
 roles:
@@ -56,11 +56,11 @@ navigation:
   - title: People
     link: /#people
   - title: Research
-    link: /research.html
+    link: /research/
   - title: Publications
-    link: /publications.html
+    link: /publications/
   - title: Join
-    link: /join.html
+    link: /join/
 
 plugins:
   - jekyll-feed
