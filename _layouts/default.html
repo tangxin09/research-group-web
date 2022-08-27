@@ -31,8 +31,8 @@
             </div>
 
             {% if page.displayimage %}
-                <img src="{{ page.displayimage }}"
-                     alt="{{ page.title }}"
+                <img src="{{ page.displayimage.src }}"
+                     alt="{{ page.displayimage.alt }}"
                      style="max-width: 400px"
                      class="img-fluid mx-auto d-block mb-4"/>
             {% endif %}

@@ -3,8 +3,6 @@ layout: post
 #shortnews: true
 title: "Joining the lab through the ASCDT MSc+PhD route (UK/EU)"
 icon: graduation-cap
-image: 
-image_style: 
 ---
 
 **The deadline for this route has passed on 15 August 2022.** Please see the [join](https://www.wychowlab.org/join.html) page for current opportunities.
