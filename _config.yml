@@ -29,7 +29,6 @@ logo: /img/logo.png
 highlighter: pygments
 
 # The path structure for posts.
-#permalink: pretty
 permalink: /:categories/:year/:month/:day/:title
 
 # Sections on the "people" page.
