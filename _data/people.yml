@@ -27,5 +27,9 @@ dkoester:
     role: collab
     bio: Centre for Mechanochemical Cell Biology, Warwick Medical School, University of Warwick
 
-
+mbalasubramanian:
+    display_name: "Prof Mohan Balasubramanian"
+    webpage: "https://warwick.ac.uk/fac/sci/med/research/biomedical/labs/mbalasubramanian/"
+    role: collab
+    bio: Centre for Mechanochemical Cell Biology, Warwick Medical School, University of Warwick
 
