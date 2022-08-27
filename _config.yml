@@ -49,19 +49,6 @@ collections:
   projects:
     output: true
 
-# Navigation bar links.
-navigation:
-  - title: Home
-    link: /
-  - title: People
-    link: /#people
-  - title: Research
-    link: /research/
-  - title: Publications
-    link: /publications/
-  - title: Join
-    link: /join/
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
