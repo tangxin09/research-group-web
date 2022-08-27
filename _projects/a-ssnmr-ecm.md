@@ -2,7 +2,7 @@
 title: New applications of solid-state NMR to the extracellular matrix
 
 description: |
-  
+ SsNMR is a versatile technique that can provide atomic-level structural information on complex materials in functionally-relevant states, with unique advantages for investigating the extracellular matrix.
 
 people:
   - ying
