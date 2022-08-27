@@ -27,31 +27,7 @@
                          srcset="{{ site.base }}/img/logo@2x.png 2x"
                          alt="Magnets are awesome" id="logo"-->
                 </a>
-                <ul class="nav nav-pills justify-content-center">
-
-                    {% assign shorturl = page.url | replace:'.html','' | replace:'index','' %}
-                    {% for item in site.navigation %}
-
-                        {% assign itemshorturl = item.link | replace:'.html','' %}
-
-                        {% assign maybe-active = '' %}
-                        {% if item.title == 'Research' and page.layout == 'project' %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-                        {% if itemshorturl == shorturl or is-research %}
-                            {% assign maybe-active = 'active' %}
-                        {% endif %}
-
-                        <li class="nav-item">
-                            <a class="nav-link {{ maybe-active }}"
-                               href="{{ site.base }}{{ item.link }}">
-                                {{ item.title }}
-                            </a>
-                        </li>
-
-                    {% endfor %}
-
-                </ul>
+                {% include navigation.html %}
             </div>
 
             {% if page.displayimage %}
