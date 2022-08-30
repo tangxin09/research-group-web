@@ -15,11 +15,13 @@ no-picture-role-groups:
 
 ---
 
-<div class="jumbotron">
-    <p>
-        We use solid-state NMR spectroscopy to bring new insight to biomolecules in the extracellular matrix that are relevant to human health and disease. 
-        We are based at the <a href="https://warwick.ac.uk/">University of Warwick</a>, UK.
-    </p>
+<div class="display-6 bg-light rounded">
+    <div class="container-fluid py-5">
+        <p class="fs-3">
+            We use solid-state NMR spectroscopy to bring new insight to biomolecules in the extracellular matrix that are relevant to human health and disease. 
+            We are based at the <a href="https://warwick.ac.uk/">University of Warwick</a>, UK.
+        </p>
+    </div>
 </div>
 
 <section>
@@ -40,7 +42,7 @@ no-picture-role-groups:
 
 <section>
     <h2>Research</h2>
-    <div class="card-columns">
+    <div class="row" data-masonry='{"percentPosition": true }'>
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}

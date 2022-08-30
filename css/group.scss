@@ -20,6 +20,16 @@ $gray: tint($ww-gray, 30%); // was #999
 $light-gray: tint($ww-gray, 90%); // was #EEE
 $mid-gray: tint($ww-gray, 50%);
 
+$link-color: $ww-aubergine ;
+
+a:not([class]) {
+    text-decoration: none;
+}
+
+a:not([class]):hover {
+    text-decoration: underline;
+}
+
 /* Space out content a bit */
 body {
     padding-top: 20px;
