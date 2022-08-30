@@ -3,23 +3,15 @@ layout: default
 title: Home
 notitle: true
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [faculty, postdoc, staff]
-    width: 8
-    image: true
-- - roles: [grad, ugrad]
-    width: 8
-    image: true
-- - roles: [collab]
-    width: 10
-    image: false
-- - roles: [alum]
-    width: 4
-    image: false
-  - roles: [ugrad-alum]
-    width: 4
-    image: false
+# roles to show on front page (not all in people.yaml)
+picture-role-groups:
+- {roles: [faculty], width: 10}
+#- {roles: [postdoc], width: 10}
+- {roles: [grad], width: 10}
+#- {roles: [ugrad], width: 10}
+
+no-picture-role-groups:
+- {roles: [collab], width: 10}
 
 ---
 
@@ -64,15 +56,5 @@ role-tables:
 
 <div id="people">
     <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
+        {% include persons-specific-in-sections.html %}
 </div>

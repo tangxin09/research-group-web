@@ -33,3 +33,30 @@ mbalasubramanian:
     role: collab
     bio: Centre for Mechanochemical Cell Biology, Warwick Medical School, University of Warwick
 
+phd2019_as:
+    display_name: "Starting Oct 2022"
+    display_letter: "A"
+    webpage: 
+    role: grad
+    bio: Department of Physics, University of Warwick
+
+phdzz_you:
+    display_name: You?
+    display_letter: "?"
+    webpage: /join
+    role: grad
+    bio: See the "Join" page!
+
+ugrad2022_ab:
+    display_name: "Starting Oct 2022"
+    display_letter: "A"
+    webpage: 
+    role: ugrad
+    bio: Department of Physics, University of Warwick
+
+ugrad2022_mt:
+    display_name: "Starting Oct 2022"
+    display_letter: "M"
+    webpage: 
+    role: ugrad
+    bio: Department of Physics, University of Warwick

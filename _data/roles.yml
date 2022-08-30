@@ -1,0 +1,19 @@
+# Sections on the "people" page.
+- key: faculty
+  name: 
+- key: staff
+  name: Staff
+- key: postdoc
+  name: Postdocs
+- key: grad
+  name: PhD Students
+#- key: grad-cosup
+#  name: Co-supervised PhD Students
+- key: ugrad
+  name: Undergraduate Students
+- key: collab
+  name: Collaborators
+- key: alum
+  name: Alumni
+- key: ugrad-alum
+  name: Undergraduate Alumni

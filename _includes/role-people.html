@@ -1,7 +1,7 @@
 
 {% assign role-key = include.role %}
 
-{% for role in site.roles %}
+{% for role in site.data.roles %}
     {% if role.key == role-key %}
         <h3 class="pt-3"> {{ role.name }} </h3>
         <div class="role {{ role.key }}">
