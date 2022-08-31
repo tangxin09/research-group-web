@@ -13,6 +13,7 @@ picture-role-groups:
 no-picture-role-groups:
 - {roles: [collab], width: 10}
 
+displayprojectpeople: false
 ---
 
 <div class="display-6 bg-light rounded">
@@ -50,7 +51,7 @@ no-picture-role-groups:
         {% assign projects_by_date = projects_by_date | reverse %}
         {% for p in projects_by_date %}
             {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
+                {% include project-card-person.html project=p %}
             {% endif %}
         {% endfor %}
     </div>
