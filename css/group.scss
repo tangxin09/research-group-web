@@ -31,9 +31,9 @@ a:not([class]):hover {
 }
 
 /* Space out content a bit */
-body {
-    padding-top: 20px;
-}
+// body {
+//     padding-top: 20px;
+// }
 
 .header {
     border-bottom: 1px solid $light-gray;
@@ -63,11 +63,11 @@ a > .fa {
 }
 
 /* /\* Customize container *\/ */
-/* @media (min-width: 768px) { */
-/*     .container { */
-/*         max-width: 730px; */
-/*     } */
-/* } */
+@media (min-width: 992px) { 
+     .container { 
+         max-width: 960px; 
+     } 
+} 
 
 /* Jumbotron */
 .jumbotron {
