@@ -1,8 +1,24 @@
 ---
 ---
 
-$gray: #999;
-$light-gray: #EEE;
+/* Warwick ID7 palette */
+/* https://id7.warwick.ac.uk/components/colour-palette/ */
+$ww-aubergine: #552D62;
+$ww-aubergine2: #886C91;
+$ww-gray: #393A3B;
+$ww-gray2: #747576;
+$ww-ruby: #9A1310;
+$ww-ruby2: #B85A58;
+$ww-sky: #00407A;
+$ww-sky2: #4D79A2;
+
+@function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}
+
+$gray: tint($ww-gray, 30%); // was #999
+$light-gray: tint($ww-gray, 90%); // was #EEE
+$mid-gray: tint($ww-gray, 50%);
 
 /* Space out content a bit */
 body {
@@ -98,7 +114,7 @@ section {
 
 .noprofile {
     circle {
-        fill: #747576;
+        fill: $mid-gray;
     }
     text {
         font-weight: 700;
