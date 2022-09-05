@@ -1,5 +1,6 @@
 _site
 _includes/pubs.html
+_includes/pubs_latex.html
 /test-deploy.sh
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
