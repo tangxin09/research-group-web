@@ -17,10 +17,23 @@ $ww-sky2: #4D79A2;
 }
 
 $gray: tint($ww-gray, 30%); // was #999
+$mission-gray: tint($ww-gray, 95%); // was #EEE
 $light-gray: tint($ww-gray, 90%); // was #EEE
 $mid-gray: tint($ww-gray, 50%);
+$sitelinkcolor: $ww-aubergine;
 
-$link-color: $ww-aubergine ;
+a, a:hover, .nav-link { 
+    color: $sitelinkcolor;
+}
+
+.nav-pills .nav-link.active {
+    background-color: $sitelinkcolor;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #fff;
+    background-color: $sitelinkcolor;
+}
 
 a:not([class]) {
     text-decoration: none;
@@ -28,6 +41,10 @@ a:not([class]) {
 
 a:not([class]):hover {
     text-decoration: underline;
+}
+
+.mission {
+    background-color: $mission-gray;
 }
 
 /* Space out content a bit */
