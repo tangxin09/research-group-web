@@ -20,19 +20,20 @@ $gray: tint($ww-gray, 30%); // was #999
 $mission-gray: tint($ww-gray, 95%); // was #EEE
 $light-gray: tint($ww-gray, 90%); // was #EEE
 $mid-gray: tint($ww-gray, 50%);
-$sitelinkcolor: $ww-aubergine;
+$sitelinkcolor: $ww-aubergine2;
+$navcolor: $ww-aubergine;
 
-a, a:hover, .nav-link { 
+a, a:hover { 
     color: $sitelinkcolor;
 }
 
-.nav-pills .nav-link.active {
-    background-color: $sitelinkcolor;
+.nav-link {
+    color: $navcolor;
 }
 
-.nav-link:focus, .nav-link:hover {
+.nav-pills .nav-link.active, .nav-link:focus, .nav-link:hover {
     color: #fff;
-    background-color: $sitelinkcolor;
+    background-color: $navcolor;
 }
 
 a:not([class]) {
