@@ -1,13 +1,8 @@
-<nav class="nav nav-pills justify-content-center">
+<nav class="navbar nav nav-pills navbar-expand-lg navbar-light bg-white justify-content-center">
     {% for item in site.data.navigation %}
     <div class="nav-item">
 
-        {% assign maybe-active = '' %}
-        {% if page.url == item.link %}
-            {% assign maybe-active = 'active' %}
-        {% endif %}
-
-        <a href="{{ item.link }}" class="nav-link {{ maybe-active }}">
+        <a href="{{ item.link }}" class="nav-link {% if item.link == page.url %}active{% endif %}" {% if item.link == page.url %}aria-current="page"{% endif %}>
         {{ item.name }} 
         </a>
     </div>

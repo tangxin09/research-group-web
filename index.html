@@ -5,21 +5,24 @@ notitle: true
 
 # roles to show on front page (not all in people.yaml)
 picture-role-groups:
-- {roles: [faculty], width: 10}
-#- {roles: [postdoc], width: 10}
-- {roles: [grad], width: 10}
-#- {roles: [ugrad], width: 10}
+- {roles: [faculty], width: 12}
+#- {roles: [postdoc], width: 12}
+- {roles: [grad], width: 12}
+#- {roles: [ugrad], width: 12}
 
 no-picture-role-groups:
-- {roles: [collab], width: 10}
+- {roles: [collab], width: 12}
 
+displayprojectpeople: false
 ---
 
-<div class="jumbotron">
-    <p>
-        We use solid-state NMR spectroscopy to bring new insight to biomolecules in the extracellular matrix that are relevant to human health and disease. 
-        We are based at the <a href="https://warwick.ac.uk/">University of Warwick</a>, UK.
-    </p>
+<div class="display-6 rounded mission">
+    <div class="container-fluid py-4 py-md-5">
+        <p class="fs-4 fs-md-3">
+            We use solid-state NMR spectroscopy to bring new insight to biomolecules in the extracellular matrix that are relevant to human health and disease. 
+            We are based at the <a href="https://warwick.ac.uk/">University of Warwick</a>, UK.
+        </p>
+    </div>
 </div>
 
 <section>
@@ -40,7 +43,7 @@ no-picture-role-groups:
 
 <section>
     <h2>Research</h2>
-    <div class="card-columns">
+    <div class="row" data-masonry='{"percentPosition": true }'>
         {% comment %}
         Sort the projects by date, putting those without dates last
         {% endcomment %}
@@ -48,7 +51,7 @@ no-picture-role-groups:
         {% assign projects_by_date = projects_by_date | reverse %}
         {% for p in projects_by_date %}
             {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
+                {% include project-card-person.html project=p %}
             {% endif %}
         {% endfor %}
     </div>

@@ -5,11 +5,10 @@ all: build
 
 BIBBLE = bibble
 
-_includes/pubs.html: bib/pubs.bib bib/publications.tmpl
+_includes/pubs.html: bib/pubs.bib _layouts/publications.tmpl.njk
 	mkdir -p _includes
-	$(BIBBLE) $+ > $@
-	latex2text $@ > $@.2
-	mv $@.2 $@
+	$(BIBBLE) $+ > _includes/pubs_latex.html
+	latex2text _includes/pubs_latex.html > $@
 
 build: _includes/pubs.html
 	bundle exec jekyll build -d $(SERVE_DIR)
@@ -28,9 +27,9 @@ serve: _includes/pubs.html
 clean:
 	$(RM) -r $(SERVE_DIR) _includes/pubs.html $(DEFAULT_SERVE_DIR)
 
-DEPLOY_HOST ?= yourwebpage.com
-DEPLOY_PATH ?= www/
-RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
+#DEPLOY_HOST ?= yourwebpage.com
+#DEPLOY_PATH ?= www/
+#RSYNC := rsync --compress --recursive --checksum --itemize-changes --delete -e ssh
 
-deploy: clean build
-	$(RSYNC) $(SERVE_DIR) $(DEPLOY_HOST):$(DEPLOY_PATH)
+#deploy: clean build
+#	$(RSYNC) $(SERVE_DIR) $(DEPLOY_HOST):$(DEPLOY_PATH)

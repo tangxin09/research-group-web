@@ -1,5 +1,12 @@
 ---
 ---
+a:not([class]) {
+    text-decoration: none;
+}
+
+a:not([class]):hover {
+    text-decoration: underline;
+}
 
 /* Warwick ID7 palette */
 /* https://id7.warwick.ac.uk/components/colour-palette/ */
@@ -17,13 +24,50 @@ $ww-sky2: #4D79A2;
 }
 
 $gray: tint($ww-gray, 30%); // was #999
+$mission-gray: tint($ww-gray, 95%); // was #EEE
 $light-gray: tint($ww-gray, 90%); // was #EEE
 $mid-gray: tint($ww-gray, 50%);
+$sitelinkcolor: tint($ww-aubergine, 10%);
+$navcolor: $ww-aubergine;
+
+a, a:hover { 
+    color: $sitelinkcolor;
+}
+
+.nav-link {
+    color: $navcolor;
+}
+
+.nav-pills .nav-link.active, .nav-link:focus, .nav-link:hover {
+    color: #fff;
+    background-color: $navcolor;
+}
+
+.mission {
+    background-color: $mission-gray;
+    margin-bottom: 1rem;
+}
+
+// Typography via fontjoy and google web fonts
+
+.mission p {
+    font-family: 'Martel','Noto Sans','Roboto',sans-serif;
+}
+
+div {
+    font-family: 'Noto Sans','Roboto',sans-serif;
+    font-weight: 300;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
 
 /* Space out content a bit */
-body {
-    padding-top: 20px;
-}
+// body {
+//     padding-top: 20px;
+// }
 
 .header {
     border-bottom: 1px solid $light-gray;
@@ -53,11 +97,11 @@ a > .fa {
 }
 
 /* /\* Customize container *\/ */
-/* @media (min-width: 768px) { */
-/*     .container { */
-/*         max-width: 730px; */
-/*     } */
-/* } */
+@media (min-width: 992px) { 
+     .container { 
+         max-width: 960px; 
+     } 
+} 
 
 /* Jumbotron */
 .jumbotron {
@@ -72,6 +116,11 @@ a > .fa {
     width: 154px;
     height: 35px;
     margin: 2px 0 8px 0;
+}
+
+/* Publication page */
+.venue {
+    font-style: italic;
 }
 
 /* Front page news. */
