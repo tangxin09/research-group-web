@@ -1,7 +1,7 @@
 ---
 layout: post
 shortnews: true
-icon: comments-o
+icon: comments
 displayimage: 
     src: /img/posts/IMG_20220515_081011.jpg
     style: "max-height: 500px;"
