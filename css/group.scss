@@ -1,5 +1,6 @@
 ---
 ---
+@function test() {}
 
 /* Warwick ID7 palette */
 /* https://id7.warwick.ac.uk/components/colour-palette/ */
@@ -46,6 +47,22 @@ a:not([class]):hover {
 
 .mission {
     background-color: $mission-gray;
+    margin-bottom: 1rem;
+}
+
+// Typography via fontjoy and google web fonts
+
+.mission p {
+    font-family: 'Martel','Noto Sans','Roboto',sans-serif;
+}
+
+div {
+    font-family: 'Noto Sans','Roboto',sans-serif;
+    font-weight: 300;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
 }
 
 /* Space out content a bit */
