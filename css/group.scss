@@ -27,7 +27,7 @@ $gray: tint($ww-gray, 30%); // was #999
 $mission-gray: tint($ww-gray, 95%); // was #EEE
 $light-gray: tint($ww-gray, 90%); // was #EEE
 $mid-gray: tint($ww-gray, 50%);
-$sitelinkcolor: $ww-aubergine2;
+$sitelinkcolor: tint($ww-aubergine, 10%);
 $navcolor: $ww-aubergine;
 
 a, a:hover { 
@@ -62,6 +62,7 @@ div {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
+
 
 /* Space out content a bit */
 // body {
