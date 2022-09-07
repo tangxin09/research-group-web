@@ -1,6 +1,12 @@
 ---
 ---
-@function test() {}
+a:not([class]) {
+    text-decoration: none;
+}
+
+a:not([class]):hover {
+    text-decoration: underline;
+}
 
 /* Warwick ID7 palette */
 /* https://id7.warwick.ac.uk/components/colour-palette/ */
@@ -35,14 +41,6 @@ a, a:hover {
 .nav-pills .nav-link.active, .nav-link:focus, .nav-link:hover {
     color: #fff;
     background-color: $navcolor;
-}
-
-a:not([class]) {
-    text-decoration: none;
-}
-
-a:not([class]):hover {
-    text-decoration: underline;
 }
 
 .mission {
