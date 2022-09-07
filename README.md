@@ -31,6 +31,7 @@ Modifications from uwsampa template
 - refactored parts of default.html/index.html as includes
 - typography: test with [Fontjoy][], served with [Google web fonts][gwf]
 - implemented some accessibility provisions such as `alt` tags for images and screen readers (`aria`)
+- renamed master to main (see [github/renaming](https://github.com/github/renaming))
 - removed "faculty" as being used for a single-PI lab website
 
 [Bundler]: https://bundler.io/
