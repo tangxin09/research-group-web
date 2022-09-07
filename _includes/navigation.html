@@ -2,8 +2,7 @@
     {% for item in site.data.navigation %}
     <div class="nav-item">
 
-        <a href="{{ item.link }}" class="nav-link {% if item.link == page.url %}active{% endif %}" 
-        {% if item.link == page.url %}aria-current="page"{% endif %}>
+        <a href="{{ item.link }}" class="nav-link {% if item.link == page.url %}active{% endif %}" {% if item.link == page.url %}aria-current="page"{% endif %}>
         {{ item.name }} 
         </a>
     </div>

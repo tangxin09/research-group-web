@@ -7,30 +7,45 @@ Website for Wing Ying Chow's Lab at University of Warwick, UK
 Research Group Web Site Template
 ================================
 
-This is a [Jekyll][]-based Web site based on the work of the [sampa][sampa] group at the University of Washington. It is forked from [this repository][uwsamparepo].
+This is a [Jekyll][]-based Web site based on the work of the [sampa][] group at the University of Washington. It was forked from [this repository][uwsamparepo] and detached after significant modifications.
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
+[Jekyll]: http://jekyllrb.com/
 [sampa]: http://sampa.cs.washington.edu/
 [license]: https://creativecommons.org/licenses/by-nc/4.0/
 [uwsamparepo]: https://github.com/uwsampa/research-group-web
 
-Modifications
+Modifications from uwsampa template
 --------
-- removed "faculty" as being used for a single-PI lab website
-- reduced number of columns for project cards
-- tweaked column width for news
-- used Mendeley to export bibtex
-- used [pylatexenc][pylatexenc] to convert LaTeX-encoded parts of website back to text
+- adapted and optimized the build process for [GitHub Pages](https://pages.github.com/)
+- improved `.gitignore` using [Toptal's gitignore tool](https://www.toptal.com/developers/gitignore/)
+- added Gemfile for a consistent Jekyll build environment using [Bundler][]
+- added [jekyll-seo-tag plugin][jekyll-seo-tag], mostly for improved [Twitter cards][twittercards]
+- added jekyll-feed and jekyll-sitemap plugins
+- updated from [Bootstrap][] 3 to 5
+- updated from [Font Awesome][fa] 4 to 6, originally for the ORCID logo, but possibly now more for the [fun effects](https://fontawesome.com/docs/web/style/animate)
+- updated from [jQuery][] 3.5.1 to 3.6.1
 - added [favicon generated from fontawesome](https://gauger.io/fonticon/)
-- moved from [Font Awesome](https://fontawesome.com/) 4 to 6, originally for the ORCID logo, but possibly now more for the fun effects
+- used [pylatexenc][pylatexenc] to convert LaTeX-encoded parts of website back to text
+- refactored parts of default.html/index.html as includes
+- typography: test with [Fontjoy][], served with [Google web fonts][gwf]
+- implemented some accessibility provisions such as `alt` tags for images and screen readers (`aria`)
+- removed "faculty" as being used for a single-PI lab website
 
+[Bundler]: https://bundler.io/
+[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
+[twittercards]: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards
 [pylatexenc]: https://pylatexenc.readthedocs.io/en/latest/latex2text/
+[fontjoy]: https://fontjoy.com/
+[gwf]: https://fonts.google.com/
+[jQuery]: https://jquery.com/
+
 
 Features
 --------
 
-* Thanks to [Jekyll][], content is just text files. So even faculty should be able to figure it out.
+* Thanks to [Jekyll][], content is just text files.
 * Publications list generated from BibTeX.
 * Personnel list. Organize your professors, students, staff, and alumni.
 * Combined news stream and blog posts.
@@ -43,17 +58,26 @@ Features
 Setup
 -----
 
-1. Install the dependencies. You will need [Python][], [bibble][] (`pip install bibble`), and [Jekyll][] (`gem install jekyll`).
+1. Install the dependencies. You will need:
+    - [Python 3][Python]
+        - [pip](https://pypi.org/project/pip/)
+        - [bibble][] (`pip install bibble`)
+    - [Ruby](https://www.ruby-lang.org/en/): on Ubuntu I did `apt install ruby-all`
+        - `gem` was included
+        - [Jekyll][] and [Bundler][] (`gem install jekyll bundler`).
+    - Recommendation: use [Visual Studio Code](https://code.visualstudio.com/)
 2. [Fork][] this repository on GitHub.
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
-4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream https://github.com/uwsampa/research-group-web.git`.
-5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Type `make` to build the site and then run `make serve` to view your site.
-7. Keep adding content. See below for instructions for each of the various sections.
-8. Periodically pull from the upstream repository: `git pull upstream master`.
+4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream https://github.com/wychowlab/research-group-web.git`.
+5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL, plus SEO values.
+6. Get bundler to install required gems for the build environment `bundle update`
+7. Type `make` to build the site and then run `make serve` to view your site.
+8. Keep adding content. See below for instructions for each of the various sections.
+9. Periodically pull from the upstream repository: `git pull upstream master`.
 
+[bibble]: https://github.com/sampsyo/bibble/
 [Python]: https://www.python.org/
-[Fork]: https://github.com/uwsampa/research-group-web/fork
+[Fork]: https://github.com/wychowlab/research-group-web/fork
 
 
 Publication List
@@ -83,7 +107,7 @@ For full blog posts, use this format:
 
 And concoct a page title for your post. The body of the post goes after the `---` in either case.
 
-You can also customize the icon that is displayed on the news feed. By default it's `newspaper-o`. We use icons from the [FontAwesome][fa] icon set.
+You can also customize the icon that is displayed on the news feed. By default it's `newspaper-o`, an icon from the [Font Awesome][fa] icon set.
 
 [yfm]: http://jekyllrb.com/docs/frontmatter/
 [fa]: http://fontawesome.io/icons/
@@ -107,7 +131,9 @@ To create a project, just create a markdown file in the `_projects` folder. Here
 Personnel
 ---------
 
-People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
+People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. 
+
+Roles (e.g., "Postdoc", and "PhD students") are defined in `_data/roles.yml`.
 
 [YAML]: https://en.wikipedia.org/wiki/YAML
 
@@ -117,21 +143,20 @@ Building
 
 The requirements for building the site are:
 
+* [Bundler][]: run `gem install bundler`
 * [Jekyll][]: run `gem install jekyll`
+* gems listed in the Gemfile - though you can comment out parts you don't need
 * [bibble][]: available on `pip`
 * ssh and rsync, only if you want to deploy directly.
 
-`make` compiles the bibliography and the website content to the `_site`
-directory. To preview the site, run `jekyll serve`` and head to
-http://0.0.0.0:5000.
+`make` compiles the bibliography and the website content to the `docs`
+directory. To preview the site, run `make serve`` and head to
+http://localhost:4000.
 
 
-Deploying to Your Sever
+Deploying to GitHub Pages
 -----------------------
 
-To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
+This template is optimized for hosting the site on GitHub Pages using a custom domain in `CNAME`. You can pick which branch you deploy the site on. A new commit/push to GitHub will trigger a rebuild.
 
-To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub. Be aware that the Makefile is configured to have rsync delete stray files from the destination directory.
 
-[Jekyll]: http://jekyllrb.com/
-[bibble]: https://github.com/sampsyo/bibble/
