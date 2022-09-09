@@ -33,6 +33,8 @@ Modifications from uwsampa template
 - implemented some accessibility provisions such as `alt` tags for images and screen readers (`aria`)
 - renamed master to main (see [github/renaming](https://github.com/github/renaming))
 - removed "faculty" as being used for a single-PI lab website
+- added [lightbox][]
+- implemented a covers gallery on the publication page
 
 [Bundler]: https://bundler.io/
 [jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
@@ -41,7 +43,7 @@ Modifications from uwsampa template
 [fontjoy]: https://fontjoy.com/
 [gwf]: https://fonts.google.com/
 [jQuery]: https://jquery.com/
-
+[lightbox]: https://lokeshdhakar.com/projects/lightbox2/
 
 Features
 --------
