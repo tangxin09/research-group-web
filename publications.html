@@ -2,6 +2,18 @@
 layout: default
 title: Publications
 ---
+
+Our work featured as journal covers:
+
+<div class="cover-gallery">
+    {% for item in site.data.covers %}
+    <a href="{{ item.image_path }}" class="img-rounded" data-lightbox="covers" data-title="{{ item.title }}" data-alt="{{ item.alt }}">
+            <img src="{{ item.thumb_path }}" class="shadow" alt="{{ item.alt }}" />
+    </a>
+    {% endfor %}
+</div>
+
+<h2>Full publications list</h2>
 <p>
     <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
 </p>
