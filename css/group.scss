@@ -171,7 +171,10 @@ section {
 
 .noprofile {
     circle {
-        fill: $gray;
+        fill: $mid-gray;
+    }
+    circle:hover {
+        fill: $sitelinkcolor;
     }
     text {
         font-weight: 700;
