@@ -78,19 +78,34 @@ div {
 
 .footer {
     /* padding-top: 19px; */
-    color: $gray;
+    color: $mid-gray;
     border-top: 1px solid $light-gray;
     text-align: center;
     font-size: 0.8em;
 
-    a:link, a:visited {
+    a {
         color: $gray;
+    }
+
+    .fa-layers {
+        border-radius: 50%;
+        background: $mid-gray;
+        height: 1em;
+        width: 1em;
+    }
+    .fa-twitter {
+        height: 0.5em;
+        width: 0.5em;
+    }
+    .fa-layers:hover {
+        background: $sitelinkcolor;
     }
 }
 
-.fa {
-    color: $gray;
+.fa, .fa-solid {
+    color: $mid-gray;
 }
+
 a > .fa {
     // make sure that font-awesome icons are underlined in links
     display: inline;
@@ -157,6 +172,9 @@ section {
 .noprofile {
     circle {
         fill: $mid-gray;
+    }
+    circle:hover {
+        fill: $sitelinkcolor;
     }
     text {
         font-weight: 700;
