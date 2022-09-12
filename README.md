@@ -63,7 +63,7 @@ The requirements for building the site are:
 * ssh and rsync, only if you want to deploy directly.
 
 `make` compiles the bibliography and the website content to the `docs`
-directory. To preview the site, run `make serve`` and head to
+directory. To preview the site, run ``make serve`` and head to
 http://localhost:4000.
 
 
