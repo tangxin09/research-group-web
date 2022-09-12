@@ -2,6 +2,7 @@ _site
 _includes/pubs.html
 _includes/pubs_latex.html
 /test-deploy.sh
+.cookies
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode

@@ -4,8 +4,8 @@ Website for Wing Ying Chow's Lab at University of Warwick, UK
 [https://www.wychowlab.org/](https://www.wychowlab.org/)
 
 
-Research Group Web Site Template
-================================
+Background
+=======================
 
 This is a [Jekyll][]-based Web site based on the work of the [sampa][] group at the University of Washington. It was forked from [this repository][uwsamparepo] and detached after significant modifications.
 
@@ -35,6 +35,7 @@ Modifications from uwsampa template
 - removed "faculty" as being used for a single-PI lab website
 - added [lightbox][]
 - implemented a covers gallery on the publication page
+- implemented checking for broken links using [html-proofer][] (gem)
 
 [Bundler]: https://bundler.io/
 [jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
@@ -44,6 +45,10 @@ Modifications from uwsampa template
 [gwf]: https://fonts.google.com/
 [jQuery]: https://jquery.com/
 [lightbox]: https://lokeshdhakar.com/projects/lightbox2/
+[html-proofer]: https://github.com/gjtorikian/html-proofer
+
+Documentation
+=======================
 
 Features
 --------
@@ -61,6 +66,8 @@ Features
 Setup
 -----
 
+This repository is serving the website of WYChow lab. You are welcome to fork it though it is not set up as a template, and bugs are likely to be introduced instead of fixed!
+
 1. Install the dependencies. You will need:
     - [Python 3][Python]
         - [pip](https://pypi.org/project/pip/)
@@ -69,18 +76,16 @@ Setup
         - `gem` was included
         - [Jekyll][] and [Bundler][] (`gem install jekyll bundler`).
     - Recommendation: use [Visual Studio Code](https://code.visualstudio.com/)
-2. [Fork][] this repository on GitHub.
+2. [Fork][fork] this repository on GitHub.
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
-4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream https://github.com/wychowlab/research-group-web.git`.
-5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL, plus SEO values.
-6. Get bundler to install required gems for the build environment `bundle update`
-7. Type `make` to build the site and then run `make serve` to view your site.
-8. Keep adding content. See below for instructions for each of the various sections.
-9. Periodically pull from the upstream repository: `git pull upstream master`.
+4. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL, plus SEO values.
+5. Get bundler to install required gems for the build environment `bundle update`
+6. Type `make` to build the site and then run `make serve` to view your site.
+7. Keep adding content. See below for instructions for each of the various sections.
 
 [bibble]: https://github.com/sampsyo/bibble/
 [Python]: https://www.python.org/
-[Fork]: https://github.com/wychowlab/research-group-web/fork
+[fork]: https://github.com/wychowlab/research-group-web/fork
 
 
 Publication List
