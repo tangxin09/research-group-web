@@ -4,6 +4,7 @@
 all: build
 
 BIBBLE = bibble
+JEKYLL = bundle exec jekyll
 
 _includes/pubs.html: bib/pubs.bib _layouts/publications.tmpl.njk
 	mkdir -p _includes
@@ -11,7 +12,7 @@ _includes/pubs.html: bib/pubs.bib _layouts/publications.tmpl.njk
 	latex2text _includes/pubs_latex.html > $@
 
 build: _includes/pubs.html
-	bundle exec jekyll build -d $(SERVE_DIR)
+	bundle exec $(JEKYLL) -d $(SERVE_DIR)
 	cp CNAME $(SERVE_DIR)/CNAME
 
 # you can configure these at the shell, e.g.:
@@ -22,10 +23,14 @@ SERVE_DIR ?= docs
 DEFAULT_SERVE_DIR ?= _site
 
 serve: _includes/pubs.html
-	JEKYLL_ENV=production bundle exec jekyll serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d $(SERVE_DIR)
+	JEKYLL_ENV=production $(JEKYLL) serve --port $(SERVE_PORT) --host $(SERVE_HOST) -d $(SERVE_DIR)
 
 clean:
 	$(RM) -r $(SERVE_DIR) _includes/pubs.html $(DEFAULT_SERVE_DIR)
+
+test: _includes/pubs.html
+	bundle exec htmlproofer --ignore-urls "/googleapis.com/,/gstatic.com/" --enforce_https false ./docs
+# tried --typhoeus='{"cookiefile":".cookies","cookiejar":".cookies"}' but doesn't reduce failures
 
 #DEPLOY_HOST ?= yourwebpage.com
 #DEPLOY_PATH ?= www/
