@@ -1,7 +1,7 @@
 Website for Wing Ying Chow's Lab at University of Warwick, UK
 =============================================================
 
-[https://www.wychowlab.org/](https://www.wychowlab.org/)
+[https://wychowlab.org/](https://wychowlab.org/)
 
 
 Background
