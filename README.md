@@ -46,7 +46,9 @@ Modifications from uwsampa template
 [jQuery]: https://jquery.com/
 [lightbox]: https://lokeshdhakar.com/projects/lightbox2/
 [html-proofer]: https://github.com/gjtorikian/html-proofer
-
+[bibble]: https://github.com/sampsyo/bibble/
+[Python]: https://www.python.org/
+[fork]: https://github.com/wychowlab/research-group-web/fork
 
 
 Building
